@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagramas UML</title>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+  header{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  .container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(28, 56, 24);
+    border-radius: 5px;
+  }
+  form{
+    margin-top: 20px;
+  }
+  /* Estilo para el menú desplegable */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="container">
+  <img src="">
+  <h2>Diagramas UML</h2>
+  <h2>Conceptos Basicos</h2>
+  <p>"El Lenguaje Unificado de Modelado (UML) desempeña un rol importante no solo en el desarrollo de software, sino también en los sistemas que no tienen software en muchas industrias, ya que es una forma de mostrar visualmente el comportamiento y la estructura de un sistema o proceso. el UML ayuda a mostrar errores potenciales en las estructuras de aplicaciones, el comportamiento del sistema y otros procesos empresariales."</p>
+  <h2>¿Cuáles son las ventajas del UML?&nbsp;</h2>
+  <ul>
+    <li>Simplifica las complejidades&nbsp;</li>
+    <li>Mantiene abiertas las líneas de comunicación&nbsp;</li>
+    <li>Automatiza la producción de software y los procesos&nbsp;&nbsp;</li>
+    <li>Ayuda a resolver los problemas arquitectónicos constantes&nbsp;</li>
+    <li>Aumenta la calidad del trabajo&nbsp;</li>
+    <li>Reduce los costos y el tiempo de comercialización&nbsp;</li>
+  </ul>
+
+  <!-- Menú desplegable -->
+  <div class="dropdown">
+    <button class="dropbtn">Proyectos</button>
+    <div class="dropdown-content">
+      <a href="#">Proyecto 1</a>
+      <a href="#">Proyecto 2</a>
+      <a href="#">Proyecto 3</a>
+    </div>
+  </div>
+
+</div>
+</header>
+</body>
+</html>
