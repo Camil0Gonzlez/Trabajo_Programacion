@@ -21,15 +21,10 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(28, 56, 24);
+    background-color: rgba(72, 73, 72, 0.278);
     border-radius: 5px;
   }
-  form{
-    margin-top: 20px;
-  }
-  /* Estilo para el menú desplegable */
   .dropdown {
-    position: relative;
     display: inline-block;
   }
   .dropdown-content {
@@ -72,14 +67,25 @@
     <li>Reduce los costos y el tiempo de comercialización&nbsp;</li>
   </ul>
 
-  <!-- Menú desplegable -->
+  <!-- Botones para los proyectos -->
   <div class="dropdown">
-    <button class="dropbtn">Proyectos</button>
+    <button class="dropbtn">Proyecto 1</button>
     <div class="dropdown-content">
-      <a href="#">Proyecto 1</a>
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/xJ9DKZv/Diagrama-UML.png" alt="Diagrama-UML" border="0"></a>
-      <a href="#">Proyecto 2</a>
-      <a href="#">Proyecto 3</a>
+      <img src="https://imgbb.com/"><img src="https://i.ibb.co/xJ9DKZv/Diagrama-UML.png" alt="Proyecto 1">
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Proyecto 2</button>
+    <div class="dropdown-content">
+      <img src="https://imgbb.com/" alt="Proyecto 2">
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Proyecto 3</button>
+    <div class="dropdown-content">
+      <img src="https://imgbb.com/" alt="Proyecto 3">
     </div>
   </div>
 
